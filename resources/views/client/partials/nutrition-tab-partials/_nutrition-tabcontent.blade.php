@@ -1,0 +1,8 @@
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._monday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._tuesday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._wednesday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._thursday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._thursday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._friday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._saturday-plans')
+@include('client.partials.nutrition-tab-partials.nutrition-week-plans._sunday-plans')

@@ -1,0 +1,131 @@
+.currency-dropdwn {
+    display    : flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.pricing-modal-table {
+    .tb-head {
+        width      : 241.3vw;
+        font-weight: 700;
+    }
+}
+
+.plan-list.list-unstyled li {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 9px;
+    border-bottom  : 1px solid var(--border-color);
+    padding-bottom : 12.5px;
+
+    .form-control.plan-input {
+        width: 35%;
+        float: left;
+    }
+
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    label {
+        font-size: 14px;
+    }
+}
+
+.tb-body {
+    .td {
+        position: relative;
+        padding : 10px 0;
+    }
+
+    .tb-tr {
+        width: 241vw;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid var(--border-color);
+        }
+    }
+
+    .td-inner-wrapper {
+        padding-right: 10px;
+        margin-right : 10px;
+
+        &::before {
+            content         : "";
+            position        : absolute;
+            right           : 8px;
+            height          : 100%;
+            background-color: var(--border-color);
+            width           : .5px;
+            top             : 0;
+        }
+    }
+}
+
+.week-header {
+    height         : 117px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+    margin-bottom  : 30px;
+}
+
+.plan-head {
+    height: 64px;
+    align-items: center;
+}
+
+.wp-tb-head {
+    display         : flex;
+    text-align      : center;
+    padding         : 10px;
+    background-color: #f8f9fa;
+    font-size       : 15px;
+
+    div {
+        flex      : 0 0 90px;
+        text-align: center;
+    }
+}
+
+.wp-tb-tr {
+    display      : flex;
+    padding      : 10px;
+    border-bottom: 1px solid var(--border-color);
+    min-height   : 60px;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    div {
+        flex      : 0 0 90px;
+        text-align: center;
+    }
+}
+
+td.br-td {
+    position: relative;
+
+    &::before {
+        content         : "";
+        position        : absolute;
+        height          : 80%;
+        width           : 1px;
+        background-color: #dee2e6;
+        right           : 0;
+        top             : 50%;
+        transform       : translateY(-50%);
+
+        
+    }
+    &:last-child {
+        &::before {
+    display: none;
+        }
+}
+}
+.Pricing-link {
+    width: 175px;
+    text-align: center;
+}

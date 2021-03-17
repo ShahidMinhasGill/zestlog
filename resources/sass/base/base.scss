@@ -1,0 +1,182 @@
+body {
+    background-color: var(--body-bg);
+    font-family     : 'Source Sans Pro', sans-serif;
+    color           : var(--body-text-color);
+    overflow-x      : hidden;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-track {
+    background   : #eee;
+    border       : thin solid #d3d3d3;
+    box-shadow   : 0 0 3px #dfdfdf inset;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background   : #999;
+    border       : thin solid gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width        : 8px;
+    height       : 8px;
+    background   : #999;
+    border       : thin solid gray;
+    border-radius: 10px;
+}
+
+/* button css */
+a.primary-link {
+    color        : var(--primary-color);
+    border-bottom: 2px solid transparent;
+    transition   : .3s;
+}
+
+a.primary-link:hover {
+    border-bottom  : 2px solid var(--secondary-color);
+    text-decoration: none;
+}
+
+.btn {
+    padding      : 10px 24px;
+    border-radius: 30px;
+    transition   : background-color .3s linear;
+    font-weight  : 700;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.sm-btn {
+    padding  : 5px 12px;
+    font-size: 14px;
+}
+
+.outline-btn {
+    background-color: transparent;
+    border          : 1px solid var(--primary-color);
+    color           : var(--primary-color);
+
+}
+.grey-outline-btn{
+    background-color: transparent;
+    color: #bfbcaf;
+    border: 1px solid #bfbcaf;
+}
+.grey-outline-btn:hover {
+    background-color: #bfbcaf;
+    color: #fff;
+}
+.outline-btn:hover {
+    background-color: var(--primary-color);
+    color           : #ffffff;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    border          : 1px solid var(--primary-color);
+    color           : #ffffff;
+}
+
+.primary-btn:hover {
+    background-color: transparent;
+    color           : var(--primary-color);
+}
+
+.success-btn {
+    background-color: var(--secondary-color);
+    border          : 1px solid var(--secondary-color);
+    color           : #ffffff;
+}
+
+.success-btn:hover {
+    background-color: transparent;
+    color           : var(--secondary-color);
+}
+
+.delete-btn:hover {
+    background-color: transparent;
+    border          : 1px solid var(--primary-color);
+    color           : var(--primary-color);
+}
+
+.btn.outline-btn.focus,
+.btn.outline-btn:focus .btn.primary-btn.focus,
+.btn.primary-btn:focus {
+    outline   : 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 48, .25);
+}
+
+.edit-btn {
+    color           : #fff;
+    background-color: var(--secondary-color);
+    border-color    : var(--secondary-color);
+}
+
+.edit-btn:hover {
+    color           : var(--secondary-color);
+    background-color: transparent;
+    border-color    : var(--secondary-color);
+}
+
+.delete-btn {
+    color           : #fff;
+    background-color: #e85347;
+    border-color    : #e85347;
+}
+
+.secondary-btn {
+    color           : #101924;
+    background-color: #e5e9f2;
+    border-color    : #e5e9f2;
+}
+
+.secondary-btn:hover {
+    background-color: #101924;
+    color           : #e5e9f2;
+}
+
+.btn.secondary-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(16, 26, 36, .25);
+}
+
+.link-danger {
+    color          : var(--primary-color);
+    font-weight    : 700;
+
+    &:hover{
+        text-decoration: underline;
+        color: var(--secondary-color);
+    }
+}
+.logout-drp-link{
+    color: #ffffff;
+
+    &:hover{
+        color: var(--body-text-color);
+        text-decoration: none;
+    }
+}
+/* End button css */
+h4 {
+    font-size  : 1.2rem;
+    font-weight: 600;
+}
+.input-group>.input-group-prepend>.input-group-text{
+    border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+.input-group-text{
+        background-color: var(--dark-gray);
+        border: 1px solid var(--dark-gray);
+}
+.page-content{
+    margin-left: 70px;
+    padding: 1rem;
+    margin-top: 60px;
+}

@@ -1,0 +1,24 @@
+:root {
+    --body-bg           : #f4f2ea;
+    --body-text-color   : #32322f;
+    --primary-color     : #ff6630;
+    --secondary-color   : #669aff;
+    --dark-gray         : #bfbcaf;
+    // --body-font      : font-family: 'Source Sans Pro', sans-serif;
+    --shadow            : 0px 3px 0px #d5d4cd;
+    --border-color      : #d5d4cd;
+    --fat-color         : #ffb43e;
+    --carb-color : limegreen;
+    --Protein-color: #669aff;
+    --kcal-color: tomato;
+
+}
+
+$borderWidth               : 10px;
+$animationTime             : .5s;
+$border-color-default      : var(--border-color);
+$fat-border-color-fill     : #ffb43e;
+$carb-border-color-fill : limegreen;
+$protein-border-color-fill : var(--secondary-color);
+$size                      : 60px;
+$howManySteps              : 100; //this needs to be even. 
